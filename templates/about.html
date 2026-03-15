@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bubbles">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+          <nav class="navbar">
+<ul class="nav-links">
+<li><a href="{{ url_for('index') }}">Home</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('projects') }}">Projects</a></li>
+<li><a href="{{ url_for('education') }}">education</a></li>
+<li><a href="{{ url_for('skills') }}">skills</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+</ul>
+</nav>
+    </ul>
+</nav>
+<section id="about">
+    <div class="about-box">
+    <h2>About Me</h2>
+
+    <p>
+      Hello! I'm <b>Lahari Sri</b>, a passionate Data Science and Machine Learning enthusiast.
+      I enjoy analyzing data, building ML models, and creating visualizations
+      to solve real-world problems.
+    </p>
+
+    <p>
+      I have experience with Python, Pandas, NumPy, Matplotlib, and Scikit-learn.
+      Currently, I am looking for internship opportunities where I can learn
+      and contribute to real projects.
+    </p>
+</div>
+</section>
+
+
+</body>
+
+</html>
