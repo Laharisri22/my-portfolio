@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="bubbles">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+   <nav class="navbar">
+<ul class="nav-links">
+<li><a href="{{ url_for('index') }}">Home</a></li>
+<li><a href="{{ url_for('about') }}">About</a></li>
+<li><a href="{{ url_for('projects') }}">Projects</a></li>
+<li><a href="{{ url_for('education') }}">education</a></li>
+<li><a href="{{ url_for('skills') }}">skills</a></li>
+<li><a href="{{ url_for('contact') }}">Contact</a></li>
+</ul>
+</nav>
+    </ul>
+</nav>
+<section id="projects">
+
+<h1>My Projects</h1>
+
+<h3>Projects with Frontend</h3>
+<div class="project-container">
+
+<div class="project-card">
+
+<img src="{{ url_for('static', filename='images/student-db.png') }}" class="project-img">
+
+<h4>Student Database System</h4>
+
+<p>Web application to manage student records.</p>
+
+<a href="https://github.com/Laharisri22/student-management-system" target="_blank" class="btn">GitHub</a>
+
+</div>
+
+<div class="project-card">
+  
+<img src="{{ url_for('static', filename='images/houseprice.png') }}" class="project-img">
+  <h4>House Price Prediction</h4>
+  <p>ML model with a frontend interface to predict house prices based on user inputs.</p>
+  <a href="https://github.com/Laharisri22/housepriceprediction" target="_blank" class="btn">GitHub</a>
+</div>
+<div class="project-card">
+  
+<img src="{{ url_for('static', filename='images/todolist.png') }}" class="project-img">
+  <h4>To-Do List</h4>
+  <p>Simple task management web app built using Flask, HTML and CSS.</p>
+  <a href="https://github.com/Laharisri22/to-dolist" target="_blank" class="btn">GitHub</a>
+</div>
+
+
+<div class="project-card">
+  <img src="{{ url_for('static', filename='images/diabetics.png') }}" class="project-img">
+  <h4>Diabetes Prediction</h4>
+  <p>ML-based web app that predicts whether a patient has diabetes using medical data.</p>
+  <a href="https://github.com/Laharisri22/Diabetes-Prediction" target="_blank" class="btn">GitHub</a>
+</div>
+<div class="project-card">
+  
+<img src="{{ url_for('static', filename='images/markscheck.png') }}" class="project-img">
+  <h4>MarksCheck</h4>
+  <p>Marks Checking System is a simple web application that allows users to enter marks and automatically calculates the total, average, and grade. It helps students quickly check their academic performance..</p>
+  <a href="https://github.com/Laharisri22/marks-checking" target="_blank" class="btn">GitHub</a>
+</div>
+<div class="project-card">
+  <img src="{{ url_for('static', filename='images/weather.png') }}" class="project-img">
+  <h4>Weather Prediction</h4>
+  <p>Web app that predicts weather conditions using javascript and displays results in a clean interface.</p>
+  <a href="https://github.com/Laharisri22/weatherapp" target="_blank" class="btn">GitHub</a>
+</div>
+
+</div>
+
+<h3>Machine Learning / Data Analysis Projects</h3>
+<div class="project-container">
+
+<div class="project-card">
+  <h4>Zomato Data Analysis</h4>
+  <p>Analyzed restaurant data to discover trends in cuisines, ratings, and locations using Python and visualization libraries.</p>
+  <a href="https://github.com/Laharisri22/zomato-dataset" target="_blank" class="btn">GitHub</a>
+</div>
+
+<div class="project-card">
+  <h4>Heart Disease Prediction</h4>
+  <p>ML model to predict heart disease using medical datasets and classification algorithms.</p>
+  <a href="https://github.com/Laharisri22/heartdisease" target="_blank" class="btn">GitHub</a>
+</div>
+
+<div class="project-card">
+  <h4>Titanic Survival Prediction</h4>
+  <p>Data analysis and ML model to predict passenger survival using the Titanic dataset.</p>
+  <a href="https://github.com/Laharisri22/titanic-prediction" target="_blank" class="btn">GitHub</a>
+</div>
+
+</div>
+
+</section>
+</body>
+
+</html>
